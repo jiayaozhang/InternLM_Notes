@@ -1,1 +1,1 @@
-# InternLM_Notes
+# Lecture1_Notes
