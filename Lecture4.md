@@ -6,6 +6,11 @@ https://www.bilibili.com/video/BV1yK4y1B75J/
 * 文档链接：
 https://github.com/InternLM/tutorial/blob/main/xtuner/README.md
 
+
+## 大模型参数高效微调（PEFT）
+
+![大模型参数高效微调及扩展.png](images/大模型参数高效微调及扩展.png)
+
 ## 大语言模型微调的两种策略：
 1. 增量预训练：让模型学习到一些新知识，如某个垂直领域的常识。文章、书籍、代码。
 2. 指令跟随：让模型学会对话模板，根据人类指令进行对话。高质量的对话、问答数据。
