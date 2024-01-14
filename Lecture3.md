@@ -7,6 +7,10 @@ https://www.bilibili.com/video/BV1sT4y1p71V/
 https://github.com/InternLM/tutorial/tree/main/langchain
 
 
+## RAG检索增强生成 思维导图
+
+![大模型应用技术原理.png](images/大模型应用技术原理.png)
+
 ## InternLM 模型部署
 
 使用以下命令从本地一个已有的 pytorch 2.0.1 的环境：
@@ -433,3 +437,7 @@ demo.launch()
 ```
 
 执行上述脚本
+
+![Langchain.png](images/Langchain.png)
+
+

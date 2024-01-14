@@ -38,7 +38,7 @@
 
 XTuner 首次尝试将 HuggingFace 与 OpenMMLab 进行结合，兼顾易用性和可配置性。支持使用 MMEngine Runner 和 HuggingFace Trainer 两种训练引擎.
 
-```
+```bash
 pip install xtuner
 
 # 使用 MMEngine Runner 训练
@@ -106,7 +106,7 @@ Lagent是轻量级框架，用于构建基于LLM（Logical Layered Modeling）�
 
 * 支持主流智能体系统，如 LangChain，Transformers Agent，lagent等
 
-  ```
+  ```python
   from agentlego import load_tool
   tool = load_tool('ImageCaption')
   
@@ -143,11 +143,11 @@ Lagent是轻量级框架，用于构建基于LLM（Logical Layered Modeling）�
     ![image](https://github.com/jiayaozhang/InternLM_Notes/assets/38579506/faa50c84-c387-4b27-a8a1-46643ef49752)
 
    * 用一行命令启动工具服务器，并指定在该工具服务器上运行的工具列表：
-```
+```bash
 python server.py ImageCaption TextToImage VQA OCR
 ```
 * Agent 系统运行的平台，只需要配置最基本的环境，配合 RemoteTool，即可通过网络通讯的方式，调用远程机器上部署的工具。
-```
+```python
 from agentlego.tools.remote import RemoteTool 
  tools = RemoteTool.from_server('Tool server address')
 ```
