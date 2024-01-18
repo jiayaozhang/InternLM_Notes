@@ -441,3 +441,36 @@ demo.launch()
 ![Langchain.png](images/Langchain.png)
 
 
+## 进阶作业：
+
+选择一个垂直领域，收集该领域的专业资料构建专业知识库，并搭建专业问答助手，并在 OpenXLab 上成功部署（截图，并提供应用地址）：
+
+做一个论文知识库，首先收集物理引擎原始数据
+
+将上传的pdf复制到当前目录，
+
+```bash
+mkdir paper_demo
+cd paper_demo
+cp -r /tmp/graph ./
+cp /root/data/demo/*.py ./
+vi create_db.py
+```
+
+安装pdf加载依赖，构建向量库：
+
+```python
+pip install pypdf
+python create_db.py
+```
+
+![physicsengine.png](images/physicsengine.png)
+
+将相关资源上传到github上
+
+![github.png](images/github.png)
+
+等待通过审批
+
+![save.png](images/save.png)
+
