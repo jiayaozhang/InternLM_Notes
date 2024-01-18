@@ -72,3 +72,7 @@ xtuner convert pth_to_hf ./internlm_chat_7b_qlora_oasst1_e3_copy.py ./work_dirs/
 # 将 HuggingFace adapter 合并到大语言模型：
 xtuner convert merge ./internlm-chat-7b ./hf ./merged --max-shard-size 2GB
 ```
+
+## 网页DEMO
+
+![xtuner.png](images/xtuner.png)
