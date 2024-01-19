@@ -474,3 +474,11 @@ python create_db.py
 
 ![save.png](images/save.png)
 
+OpenXLab上成功部署
+
+[PhysicsEngineGPT](https://openxlab.org.cn/apps/detail/Janice/PhysicsEngineGPT)
+
+
+![phyGPT.png](images/phyGPT.png)
+
+
