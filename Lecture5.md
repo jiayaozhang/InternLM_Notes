@@ -56,7 +56,11 @@ lmdeploy convert internlm-chat-7b  /root/share/temp/model_repos/internlm-chat-7b
 lmdeploy chat turbomind ./workspace
 ```
 
+
 方案2. API服务
+
+![FastAPI.png](images/FastAPI.png)
+
 
 ```bash
 # ApiServer+Turbomind   api_server => AsyncEngine => TurboMind
@@ -70,6 +74,10 @@ lmdeploy serve api_client http://localhost:23333
 ```
 
 方案3.gradio
+
+![weather.png](images/weather.png)
+
+
 ```bash
 # Gradio+ApiServer。必须先开启 Server，此时 Gradio 为 Client
 lmdeploy serve gradio http://0.0.0.0:23333 \
@@ -104,6 +112,9 @@ for outputs in generator.stream_infer(
 response = tm_model.tokenizer.decode(res.tolist())
 print(response)
 ```
+
+![300wordsStory.png](images/300wordsStory.png)
+
 
 ## 模型量化
 KV Cache 量化
