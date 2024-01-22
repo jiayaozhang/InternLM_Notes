@@ -179,3 +179,76 @@ internlm2_chat_7b = dict(
 models = [internlm2_chat_7b]
 
 ```
+
+
+```txt
+dataset                                 version    metric    mode    internlm2-chat-7b-turbomind
+--------------------------------------  ---------  --------  ------  -----------------------------
+--------- 考试 Exam ---------           -          -         -       -
+ceval                                   -          -         -       -
+agieval                                 -          -         -       -
+mmlu                                    -          -         -       -
+GaokaoBench                             -          -         -       -
+ARC-c                                   -          -         -       -
+--------- 语言 Language ---------       -          -         -       -
+WiC                                     -          -         -       -
+summedits                               -          -         -       -
+chid-dev                                -          -         -       -
+afqmc-dev                               -          -         -       -
+bustm-dev                               -          -         -       -
+cluewsc-dev                             -          -         -       -
+WSC                                     -          -         -       -
+winogrande                              -          -         -       -
+flores_100                              -          -         -       -
+--------- 知识 Knowledge ---------      -          -         -       -
+BoolQ                                   -          -         -       -
+commonsense_qa                          -          -         -       -
+nq                                      -          -         -       -
+triviaqa                                -          -         -       -
+--------- 推理 Reasoning ---------      -          -         -       -
+cmnli                                   -          -         -       -
+ocnli                                   -          -         -       -
+ocnli_fc-dev                            -          -         -       -
+AX_b                                    -          -         -       -
+AX_g                                    -          -         -       -
+CB                                      -          -         -       -
+RTE                                     -          -         -       -
+story_cloze                             -          -         -       -
+COPA                                    -          -         -       -
+ReCoRD                                  -          -         -       -
+hellaswag                               -          -         -       -
+piqa                                    -          -         -       -
+siqa                                    -          -         -       -
+strategyqa                              -          -         -       -
+math                                    -          -         -       -
+gsm8k                                   -          -         -       -
+TheoremQA                               -          -         -       -
+openai_humaneval                        -          -         -       -
+mbpp                                    -          -         -       -
+bbh                                     -          -         -       -
+--------- 理解 Understanding ---------  -          -         -       -
+C3                                      -          -         -       -
+CMRC_dev                                -          -         -       -
+DRCD_dev                                -          -         -       -
+MultiRC                                 -          -         -       -
+race-middle                             -          -         -       -
+race-high                               -          -         -       -
+openbookqa_fact                         -          -         -       -
+csl_dev                                 -          -         -       -
+lcsts                                   -          -         -       -
+Xsum                                    -          -         -       -
+eprstmt-dev                             -          -         -       -
+lambada                                 -          -         -       -
+tnews-dev                               -          -         -       -
+--------- 安全 Safety ---------         -          -         -       -
+crows_pairs                             -          -         -       -
+civil_comments                          -          -         -       -
+jigsaw_multilingual                     -          -         -       -
+real-toxicity-prompts                   -          -         -       -
+truthful_qa                             -          -         -       -
+01/22 23:31:27 - OpenCompass - INFO - write summary to /root/opencompass/outputs/default/20240122_221604/summary/summary_20240122_222738.txt
+01/22 23:31:27 - OpenCompass - INFO - write csv to /root/opencompass/outputs/default/20240122_221604/summary/summary_20240122_222738.csv
+
+```
+
+
