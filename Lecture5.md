@@ -6,6 +6,13 @@ https://www.bilibili.com/video/BV1iW4y1A77P
 * 文档链接：
 https://github.com/InternLM/tutorial/blob/main/lmdeploy/lmdeploy.md
 
+* 大模型上下文扩展技术原理
+
+![大模型参数高效微调及扩展1.png](images/大模型参数高效微调及扩展1.png)
+
+
+
+
 ## 大模型部署的背景
 * 模型部署：将训练好的模型在特定的软硬件环境中启动，使模型能够接收输入并返回预测结果。为了满足性能和效率的需求，常常要对模型进行优化，例如模型压缩和硬件加速。
 
