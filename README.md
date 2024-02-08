@@ -27,7 +27,9 @@
 ![大模型参数高效微调及扩展1.png](images/大模型参数高效微调及扩展1.png)
 
 
+Participated in Large Language Model Practical Camp, performed outstandingly and was rated as an Excellent Student.
 
+* [Honorary Certificate](pdf/honor.pdf)
 
 I begin my LLM learning from the following useful links:
 
